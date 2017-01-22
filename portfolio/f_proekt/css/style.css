@@ -1,0 +1,664 @@
+body{
+}
+p{
+    margin-bottom: 0px;
+}
+a,
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+header a{
+    text-transform: capitalize;
+}
+.container {
+    width: auto;
+}
+article div.container{
+    width: 1280px;
+    padding: 0px;
+}
+nav.navigation{
+	font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+	width: 930px;
+    padding: 0px;
+    color: #515862;
+    margin: auto;
+}
+.navbar-brand{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.navbar-default{
+    border: none;
+    background: #fff;
+}
+.navbar-default .navbar-nav  li:not(.active){
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.navbar-default .navbar-nav  li.active  a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+    margin-right: 150px;
+}
+.container-fluid{
+    padding: 0px;
+}
+.navbar-default .navbar-nav > .active > a
+{
+    background: #12a3d6;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+    background: #12a3d6;
+}
+li.nav-but a{
+    padding: 3px 15px;
+    color: #515862;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.navbar-default .navbar-nav li.nav-but a:hover{
+    background: #f98561;
+    color: #ffffff;
+    padding: 3px 15px;
+    border: 1px solid #f98561;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.search{
+    margin-right: 3px;
+}
+.nav > li.search > a{
+    font-size: 12px;
+    color: #515862;
+    padding: 23px 15px 21px;
+}
+.nav > li.search > a:hover,
+.nav > li.search > a:focus{
+    background: none;
+}
+.nav > li > a > img{
+    margin-left: 5px;
+}
+li{
+    margin-right: 5px;
+}
+.portfolio{
+    background: #2e3e4f;
+    min-height: 515px;
+    padding-top: 30px;
+}
+.slider{
+    position: relative;
+}
+.slogan{
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    color: #cccece;
+    text-align: center;
+    margin-left: -317px;
+}
+.slogan h1{
+    font-family: 'bebas_neueregular', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.slogan p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+.slogan_button{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px 58px;
+    color: #ffebca;
+    border-radius: 5px;
+}
+.slogan_button:hover{
+   text-decoration: none;
+    background: #f98561;
+    color: #ffebca;
+}
+
+.services{
+    min-height: 308px;
+    background: #f4f4f4;
+    position: relative;
+}
+.services_title{
+position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: -15px;
+}
+.services_title p{
+    font-family: 'bebas_neueregular', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    background: #2190c1;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    border: 1px solid #2190c1;
+    border-radius: 5px;
+    padding: 1px 26px;
+}
+.services_row{
+    width: 1016px;
+    text-align: center;
+    padding-top: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -508px;
+}
+.services_row h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+    color: #515862;
+}
+.services_row p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11px;
+    color: #515862;
+    width: 150px;
+}
+.services_row a{
+    color: #3e9dd1;
+}
+.services_row a:hover{
+    color: #f98561;
+}
+.portfolio_head{
+    padding-left: 175px;
+    padding-right: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio_head h1{
+    font-family: "Bree Serif", serif;
+    color: #f98561;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.portfolio_head a{
+    font-family: "Bree Serif", serif;
+    background: #2190c1;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 22px;
+}
+.portfolio_head a:hover{
+    color: #f98561;
+}
+.portfolio_row{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 70px;
+}
+.portfolio_row img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #ffffff;
+}
+.portfolio_row h1{
+    font-family:"Bree Serif", serif;
+    font-size: 17px;
+    color: #f98561;
+    margin-left: 15px;
+}
+.portfolio_row p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11px;
+    color: #bcbcbc;
+    margin-left: 15px;
+}
+.offer_content{
+    font-family: 'Ubuntu', sans-serif;
+    background: #f4f4f4;
+}
+.offer_content a{
+    text-transform: capitalize;
+}
+.offer_title h1,
+.offer_title p,
+.offer_content h1,
+.offer_content p,
+.offer_people h1{
+    text-align: center;
+}
+.ceo_row{
+    width: 210px;
+}
+.ceo1,
+.ceo2,
+.ceo3{
+    display: inline-block;
+    border-bottom: 10px solid #c1c1c1;
+}
+.ceo1:hover,
+.ceo2:hover,
+.ceo3:hover{
+    display: inline-block;
+    border-bottom: 10px solid #f98561;
+}
+.ceo1 img,
+.ceo2 img,
+.ceo3 img{
+    margin-bottom: 15px;
+}
+.offer_title{
+    margin-bottom: 38px;
+    margin-top: 35px;
+}
+.offer_title h1{
+    font-family: 'bebas_neueregular', sans-serif;
+    color: #2190c1;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.offer_title_2 h1{
+    font-family: 'bebasregular', sans-serif;
+    color: #2190c1;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.offer_title_2 h1,
+.offer_title_2 p{
+    font-size: 27px;
+}
+.offer_title_2 p{
+    color: #515862;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.offer_row{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.offer_row h1,
+.offer_row div:nth-child(2) a,
+.offer_title_2 p{
+    font-family: "Bree Serif", serif;
+}
+.offer_row div:nth-child(2n) a{
+    line-height: 1.2px;
+}
+.offer_row h1{
+    color: #2b99cc;
+    font-size: 17px;
+}
+.offer_row p{
+    color: #515862;
+    font-size: 11px;
+    text-align: left;
+}
+.offer_row a{
+    font-size: 14px;
+    color: #2b99cc;
+}
+.offer_row .offer_button{
+    background: #2190c1;
+    color: #ffffff;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid #2190c1;
+    border-radius: 4px;
+    margin-top: 15px;
+    box-shadow: 0 3px rgb(2,55,68);
+    position: absolute;
+    left: 140px;
+}
+.offer_row .offer_button:hover{
+    background: #3bade0;
+    border: 1px solid #3bade0;
+}
+.offer_row .offer_button:active{
+    background: #3bade0;
+    border: 1px solid #3bade0;
+    margin-top: 18px;
+    box-shadow: none ;
+}
+.offer_title p{
+    color: #515862;
+    font-size: 12px;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+.offer_people h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #f98561;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.cols{
+    /*width: 220px;*/                                                                       /*111111111111111111111111*/
+    /*margin-right: 35px;*/
+    width: 22%;
+    margin-right: 3%;
+}
+hr{
+    color: #9d9d9d;
+}
+footer .footer_content{
+    background: #2e3e4f;
+    width: 1280px;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer .footer_content h1{
+    font-family: 'bebas_neueregular', sans-serif;
+    color: #f98561;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+footer .footer_content p{
+    font-size: 12px;
+    color: #a3afb2;
+}
+footer .footer_content a{
+    font-size: 12px;
+    color: #2190c1;
+}
+footer .footer_content form .mail{
+    font-size: 13px;
+    color: #2190c1;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.contacts{
+    margin-bottom: 35px;
+}
+.footer_row{
+    width: 1024px;
+    padding-bottom: 35px;
+}
+.sign_up{
+    font-size: 13px;
+    color: #ffffff;
+    background: #2190c1;
+    border-color: #2190c1;
+    padding: 3px 15px;
+}
+.sign_up:hover,
+.sign_up:focus{
+    color: #ffffff;
+    background: #f98561;
+    border-color: #f98561;
+}
+.form-horizontal .sign_up:active{
+    background: #f98561;
+    border-color: #f98561;
+}
+.f_cols{
+    margin-bottom: 35px;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* my style */
+@media only screen and (max-width : 1024px) {
+    .offer_row{
+        width: 90%;                                 /*1111111111111111111111111*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .services_row{
+        width: 960px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+        margin-right: 50px;
+    }
+    nav.navigation{
+        width: auto;
+    }
+    .slogan{
+        top: 18%;
+        left: 50%;
+        margin-left: -320px;
+    }
+    .slogan p{
+        padding-bottom: 5px;
+        margin-bottom: 30px;
+    }
+    .services_row{
+        width: 866px;
+        margin-left: -444px;
+    }
+
+    .offer_title_2 p{
+        width: 80%;
+    }
+    .offer_row{
+        width: 50%;
+    }
+    .cols{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .footer_row{
+        width: 60%
+    }
+    .footer_row form{
+        width: 200px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 844px){
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+        margin-right: 0px;
+    }
+    li{
+        margin-right: 0px;
+    }
+    .slogan{
+        top: 18%;
+        left: 50%;
+        margin-left: -295px;
+    }
+    .slogan h1 {
+        font-size: 40px;
+    }
+    .slogan p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 13px;
+    }
+    .slogan_button{
+        line-height: 80px;
+        font-size: 20px;
+    }
+    .slogan p{
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+    }
+    .services_row{
+        width: 778px;
+        margin-left: -395px;
+    }
+    .portfolio_head h1{
+        font-size: 25px;
+    }
+    .portfolio_row{
+        margin-top: 25px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .portfolio{
+        padding-top: 7px;
+    }
+    .portfolio_head a{
+        margin-top: 23px;
+        padding: 2px 5px;
+    }
+    .services_row{
+        padding-top: 30px;
+        height: 580px;
+    }
+    .services_row div{
+        margin-top: 30px;
+    }
+    .offer_title_2 h1,
+    .offer_title_2 p{
+        font-size: 23px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .navbar-default .navbar-nav li.nav-but{
+        padding: 0px;
+    }
+    .navbar-default .navbar-nav li.nav-but a{
+         padding: 30px 15px;
+    }
+    .navbar-default .navbar-nav li.nav-but a:hover{
+        padding: 30px 15px;
+    }
+    .navbar-brand {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .navbar-collapse{
+        border-top: none;
+    }
+    .butn{
+        margin-top: 12px;
+    }
+    .slogan{
+        top: 5%;
+        left: 50%;
+        margin-left: -190px;
+    }
+    .slogan h1 {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+    .slogan p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    }
+    .slogan_button{
+        font-size: 15px;
+        padding: 7px 25px;
+    }
+    .slider .slogan p.visible-xs{
+        text-align: center;
+    }
+    .services_title{
+        margin-left: -60px;
+    }
+    .services_row{
+        width: auto;
+        margin-left: -300px;
+        left: 320px;
+    }
+    .services {
+        min-height: 600px;
+    }
+    .services_title p{
+        font-size: 19px;
+        padding: 1px 18px;
+    }
+    .portfolio .portfolio_head h1{
+        float: none !important;
+        margin-bottom: 20px;
+    }
+    .portfolio .portfolio_head a{
+        float: none !important;
+    }
+    .portfolio .portfolio_head{
+        text-align: center;
+    }
+    .portfolio_col{
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .img{
+        min-height: 200px;
+        background: #2d343a;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .slogan{
+        top: 0%;
+        left: 50%;
+        margin-left: -140px;
+    }
+    .slogan h1 {
+        font-size: 28px;
+        margin-top: 0px;
+    }
+    .slogan p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 11px;
+        margin-top: 0px;
+        margin-bottom: -20px;
+    }
+    .services_title{
+        top: 5px;
+    }
+    .slogan_button{
+          font-size: 12px;
+          padding: 5px 20px;
+     }
+      .portfolio_head{
+          padding-left: 30%;
+          padding-right: 30%;
+      }
+    .portfolio_head h1{
+        font-size: 17px;
+    }
+    .portfolio_row{
+        margin-top: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .portfolio_head a{
+        margin-top: 23px;
+        padding: 2px 5px;
+        font-size: 12px;
+    }
+    .offer_row{
+        width: 70%;
+    }
+    .footer_row{
+        width: 90%;
+    }
+    .img{
+        min-height: 172px;
+        background: #2d343a;
+    }
+    .services{
+        height: 1100px;
+    }
+    .services_col{
+        width: 100%;
+    }
+}
