@@ -1,3 +1,7 @@
+<?php
+error_reporting(E_ALL);
+include_once "core/varibles.php";
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -19,6 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -36,51 +41,23 @@
 <div class="site-wrapper">
 
     <div class="site-wrapper-inner">
+<!--header-->
+        <?php
+        include_once "views/head.php"
+        ?>
+<!--main-->
 
-        <div class="cover-container">
-
-            <div class="masthead clearfix">
-                <div class="inner">
-                    <h3 class="masthead-brand"></h3>
-                    <nav>
-                        <ul class="nav masthead-nav">
-                            <li class="active"><a href="">Главная</a></li>
-                            <li><a href="views/portfolio.php">Портфолио</a></li>
-                            <li><a href="#">Блог</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="inner cover">
-                <h1 class="cover-heading">Резюме</h1>
-                <h2 class="cover-heading">Азаркевич Иван</h2>
-                <p class="lead">Цель: <br>
-                    Начать карьеру junior php developer. </p>
-                <p class="lead">Навыки: <br>
-                    PHP, HTML, CSS, GIT, Bootstrap, MySQL</p>
-                <p class="lead">Опыт работы: <br>
-                    02.2014г - 03.2016г. <br>
-                    ОДО "Принттехника" - системный администратор</p>
-                <p class="lead">Образование - высшее: <br>
-                    Инженер по эксплуатаии, <br> Военная академия РБ 1999 - 2003г.</p>
-                <p class="lead">Курсы повышения квалификации: <br>
-                    Академия Белхард - PHP - базовый 2016г</p>
-                <p class="lead">Уровень английского: <br>
-                    A1 Elementary<br>
-                </p>
-            </div>
-
-            <div class="mastfoot">
-                <div class="inner">
-                    <p>2017</p>
-                </div>
-            </div>
-
-        </div>
+        <?php
+        include_once "views/{$page}.php";
+        ?>
+<!--footer-->
+        <?php
+        include_once "views/footer.php"
+        ?>
 
     </div>
+
+</div>
 
 </div>
 
