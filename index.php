@@ -13,7 +13,7 @@ if (isPost() && isset($_POST['send'])) {
         if (isset($_POST['message_text'])) {
             $message_text = strip_tags($_POST['message_text']);
             $sender_mail = $_POST['sender_mail'];
-            if (mail("postyly@yandex.ru", $sender_mail, $message_text)) {
+            if (mail("postyly@gmail.com", $sender_mail, $message_text)) {
                 setFlash('success', 'Ваше сообщение отправлено');
                 goBack();
             }
