@@ -1,22 +1,23 @@
 <?php
 error_reporting(E_ALL);
 session_start();
-include_once "core/varibles.php";
-include_once "core/function.php";
+require_once "core/varibles.php";
+require_once "core/function.php";
+
 
 //было отправлено сообщение
-if (isset($_POST['send']))
-{
+if (isPost() && isset($_POST['send'])) {
     //проверить введен ли емейл
-    if (isset($_POST['sender_mail']))
-    {
+    if (isset($_POST['sender_mail'])) {
         //проверить введено ли сообщение
-        if (isset($_POST['message_text']))
-        {
+        if (isset($_POST['message_text'])) {
             $message_text = strip_tags($_POST['message_text']);
             $sender_mail = $_POST['sender_mail'];
-            $_SESSION['mail'] = mail("postyly@yandex.ru", $sender_mail, $message_text);
-            goBack();
+            if (mail("postyly@yandex.ru", $sender_mail, $message_text)) {
+                setFlash('success', 'Ваше сообщение отправлено');
+                goBack();
+            }
+
         }
     }
     //проверить введено ли сообщение
@@ -24,6 +25,7 @@ if (isset($_POST['send']))
     //отправить почту на мой емейл
     //отобразить сообщение об удачном отправлении
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -49,7 +51,8 @@ if (isset($_POST['send']))
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -64,19 +67,15 @@ if (isset($_POST['send']))
 <div class="site-wrapper">
 
     <div class="site-wrapper-inner">
-<!--header-->
-        <?php
-        include_once "views/head.views.php"
-        ?>
-<!--main-->
+        <!--header-->
+        <?php include_once "views/head.views.php"; ?>
 
-        <?php
-        include_once $include;
-        ?>
-<!--footer-->
-        <?php
-        include_once "views/footer.views.php"
-        ?>
+        <?php include_once "views/partials/alert.php"; ?>
+        <!--main-->
+
+        <?php include_once $include; ?>
+        <!--footer-->
+        <?php include_once "views/footer.views.php"; ?>
 
     </div>
 

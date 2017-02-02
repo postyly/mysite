@@ -1,20 +1,16 @@
 <?php
 $alert = '';
 //пункты меню
-$menu = array('main'=>'главная', 'portfolio'=>'портфолио','blog'=>'блог' ,'contact'=>'контакты');
+$menu = array('main' => 'главная', 'portfolio' => 'портфолио', 'blog' => 'блог', 'contact' => 'контакты');
 
 //текущая страница
-if (isset($_GET['page']))
-{
+if (isset($_GET['page'])) {
     $page = $_GET['page'];
-}
-else
-{
+} else {
     $page = "main";
 }
 
-switch ($page)
-{
+switch ($page) {
     case "main":
         $include = "views/main.views.php";
         $title = "main page";
@@ -33,16 +29,5 @@ switch ($page)
         break;
     default:
         $include = "views/404.views.php";
-        $title = "contact";
+        $title = "404";
 }
-
-
-
-
-
-if (isset($_GET['page']))
-{
-    $page = $_GET['page'];
-}
-else
-    $page = "main";
