@@ -1,6 +1,29 @@
 <?php
 error_reporting(E_ALL);
+session_start();
 include_once "core/varibles.php";
+include_once "core/function.php";
+
+//было отправлено сообщение
+if (isset($_POST['send']))
+{
+    //проверить введен ли емейл
+    if (isset($_POST['sender_mail']))
+    {
+        //проверить введено ли сообщение
+        if (isset($_POST['message_text']))
+        {
+            $message_text = strip_tags($_POST['message_text']);
+            $sender_mail = $_POST['sender_mail'];
+            mail("postyly@gmail.com", $sender_mail, $message_text);
+        }
+    }
+    //проверить введено ли сообщение
+    //редактировать введенные пользователем данные
+    //отправить почту на мой емейл
+    //отобразить сообщение об удачном отправлении
+    
+}
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -13,7 +36,7 @@ include_once "core/varibles.php";
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Main page</title>
+    <title>$title</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,16 +66,16 @@ include_once "core/varibles.php";
     <div class="site-wrapper-inner">
 <!--header-->
         <?php
-        include_once "views/head.php"
+        include_once "views/head.views.php"
         ?>
 <!--main-->
 
         <?php
-        include_once "views/{$page}.php";
+        include_once $include;
         ?>
 <!--footer-->
         <?php
-        include_once "views/footer.php"
+        include_once "views/footer.views.php"
         ?>
 
     </div>

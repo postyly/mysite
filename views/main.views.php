@@ -1,4 +1,4 @@
-<div class="inner cover">
+<div class="inner cover clearfix">
     <h1 class="cover-heading">Резюме</h1>
     <h2 class="cover-heading">Азаркевич Иван</h2>
     <p class="lead">Цель: <br>
