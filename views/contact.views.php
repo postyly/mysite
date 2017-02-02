@@ -1,4 +1,7 @@
-<div class="alert alert-success lead" role="alert"><?= $_SESSION['status'] ?></div>
+<?php
+echo ((isset($_SESSION['mail']) && $_SESSION['mail'] == true) ? "отправлено" : "") ;
+unset($_SESSION['mail']);
+?>
 <div class="inner cover clearfix">
     <img class="center-block" style="width: 30%" src="../image/my_photo.jpg">
     <h1 class="cover-heading">Контактная информация.</h1>

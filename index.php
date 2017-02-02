@@ -15,14 +15,14 @@ if (isset($_POST['send']))
         {
             $message_text = strip_tags($_POST['message_text']);
             $sender_mail = $_POST['sender_mail'];
-            mail("postyly@gmail.com", $sender_mail, $message_text);
+            $_SESSION['mail'] = mail("postyly@yandex.ru", $sender_mail, $message_text);
+            goBack();
         }
     }
     //проверить введено ли сообщение
     //редактировать введенные пользователем данные
     //отправить почту на мой емейл
     //отобразить сообщение об удачном отправлении
-    
 }
 ?>
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ if (isset($_POST['send']))
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>$title</title>
+    <title><?= $title ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
