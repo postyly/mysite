@@ -1,0 +1,9 @@
+/*for counter*/
+table{
+    border-color: black;
+    background-color: #9d9d9d;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+}
