@@ -3,6 +3,7 @@ table{
     border-color: black;
     background-color: #9d9d9d;
     border-collapse: collapse;
+    width: 40%;
 }
 td{
     border: 1px solid black;
