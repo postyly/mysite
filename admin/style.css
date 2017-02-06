@@ -1,3 +1,6 @@
+body{
+    margin: 20px 50px;
+}
 /*for counter*/
 table{
     border-color: black;
@@ -5,6 +8,10 @@ table{
     border-collapse: collapse;
     width: 40%;
 }
+th{
+    text-align: center;
+}
 td{
     border: 1px solid black;
+    text-align: center;
 }
