@@ -2,7 +2,7 @@
     <h1 class="cover-heading">Резюме</h1>
     <h2 class="cover-heading">Азаркевич Иван</h2>
     <p class="lead">Цель: <br>
-        Начать карьеру junior php developer. </p>
+        Позиция junior php developer. </p>
     <p class="lead">Навыки: <br>
         PHP, HTML, CSS, GIT, Bootstrap, MySQL</p>
     <p class="lead">Опыт работы: <br>

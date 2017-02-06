@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL);
-
+date_default_timezone_set("Europe/Minsk");
 require_once "../core/function.php";
 require_once "core/varible.php";
 ?>

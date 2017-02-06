@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL);
 session_start();
+date_default_timezone_set("Europe/Moscow");
 require_once "core/varibles.php";
 require_once "core/function.php";
 require_once "core/counter.php";

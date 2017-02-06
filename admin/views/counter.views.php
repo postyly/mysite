@@ -1,7 +1,7 @@
 <?php
 //достаем из базы все данные из таблицы u_hit
 $link = db_connect();
-$query = "SELECT ip, `date_time` FROM ip_stat";
+$query = "SELECT ip, UNIX_TIMESTAMP(`date_time`) FROM ip_stat";
 $result = mysqli_query($link, $query) or die('Ошибка БД');
 
 ?>
@@ -13,9 +13,8 @@ $result = mysqli_query($link, $query) or die('Ошибка БД');
     </tr>
     <?php while ($arr = mysqli_fetch_row($result)): ?>
         <tr>
-            <?php foreach ($arr as $value): ?>
-                <td><?= $value ?></td>
-            <?php endforeach; ?>
+            <td><?= $arr[0] ?></td>
+            <td><?= date("Y-m-d, H:i:s", $arr[1]) ?></td>
         </tr>
     <?php endwhile; ?>
 </table>
