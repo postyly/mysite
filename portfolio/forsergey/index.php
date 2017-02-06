@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--mystyle-->
     <link href="css/style.css" rel="stylesheet">
     <!--font-->
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
@@ -21,8 +22,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="col-lg-2 col-md-1"></div>
-    <div class="col-lg-8 col-md-10 content">
+    <div class="content">
         <div class="col-lg-6 col-md-6">
             <h1>Мрамор сибири</h1>
             <p>Производим и продаем:</p>
@@ -52,14 +52,14 @@
                 </div>
 
                 <div class="form-group">
-                    <div class="col-sm-offset-4 col-sm-8">
+                    <div class="col-sm-offset-6 col-sm-4">
                         <button type="submit" class="btn btn-default">Отправить</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-    <div class="col-lg-2 col-md-1"></div>
+
 
 </div>
 

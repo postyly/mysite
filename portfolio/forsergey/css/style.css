@@ -1,7 +1,31 @@
 body{
     font-family: 'Play', sans-serif;
+    color: white;
+    background-image: url("//postyly.tk/portfolio/forsergey/image/fon.jpg");
+    background-size:cover;
+    text-shadow: 1px 1px 2px black;
 }
 .content{
-    border: 2px solid black;
-    margin-top: 100px;
+    margin-top: 80px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры у списка */
+}
+li:before {
+    content: "➔ "; /* Добавляем в качестве маркера символ */
+}
+h1{
+    font-size: 58px;
+}
+h3{
+    font-size: 36px;
+    margin-top: 38px;
+}
+p,
+li{
+    color: #ffffff;
+    font-size: 26px;
+}
+form{
+    margin-top: 30px;
 }
