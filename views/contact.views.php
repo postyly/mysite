@@ -7,6 +7,7 @@
         <p class="lead">e-mail: postyly@gmail.com</p>
         <p class="lead"><a href="https://www.facebook.com/ivan.azarkevich">Facebook</a></p>
         <p class="lead"><a href="https://ok.ru/profile/122572901594">OK.ru</a></p>
+        <p class="lead"><a href="https://github.com/postyly">GitHub</a></p>
         <p class="lead">Вы можете отправить мне сообщение.</p>
         <form action="index.php?page=contact" accept-charset="utf-8" method="post">
             <div class="form-group">
