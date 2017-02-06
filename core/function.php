@@ -1,6 +1,17 @@
 <?php
 
-//соединение с базой данных
+//соединение с базой данных для боевого
+/*const DB_USER = 'u272860375_admin';
+const DB_NAME = 'u272860375_admin';
+const DB_PWD = 'cQEBrvRuIlJ2';
+const DB_HOST = 'localhost';
+
+function db_connect()
+{
+    $link = mysqli_connect(DB_HOST, DB_USER, DB_PWD, DB_NAME) or die('Глобально Соединение с базой данных не установленно');
+    return $link;
+}*/
+//соединение с базой данных локально
 const DB_USER = 'admin';
 const DB_NAME = 'u272860375_admin';
 const DB_PWD = '5Eq2p8';
