@@ -1,0 +1,7 @@
+body{
+    font-family: 'Play', sans-serif;
+}
+.content{
+    border: 2px solid black;
+    margin-top: 100px;
+}
