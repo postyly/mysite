@@ -6,6 +6,7 @@
         <p class="lead">телефон: +37529 8653830</p>
         <p class="lead">e-mail: postyly@gmail.com</p>
         <p class="lead"><a href="https://www.facebook.com/ivan.azarkevich">Facebook</a></p>
+        <p class="lead"><a href="https://vk.com/id16327898">Vk.com</a></p>
         <p class="lead"><a href="https://ok.ru/profile/122572901594">OK.ru</a></p>
         <p class="lead"><a href="https://github.com/postyly">GitHub</a></p>
         <p class="lead">Вы можете отправить мне сообщение.</p>

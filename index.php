@@ -36,8 +36,13 @@ if (isPost() && isset($_POST['send'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" lang="ru" content="сайт-резюме Азаркевич Иван">
+    <meta name="description" lang="en" content="Azarkevich Ivan resume">
+    <meta name="author" lang="ru" content="Азаркевич Иван">
+    <meta name="author" lang="en" content="Azarkevich Ivan">
+    <meta name="keywords" lang="ru" content="азаркевич, иван, резюме, сайт, портфолио">
+    <meta name="keyword" lang="en" content="azarkevich, ivan, portfolio, resume">
+    <meta name="robots" content="index, follow">
     <link rel="icon" href="favicon.ico">
 
     <title><?= $title ?></title>

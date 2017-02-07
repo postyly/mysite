@@ -13,7 +13,7 @@ if (isset($_GET['page'])) {
 switch ($page) {
     case "main":
         $include = "views/main.views.php";
-        $title = "main page";
+        $title = "азаркевич иван";
         break;
     case "portfolio":
         $include = "views/portfolio.views.php";

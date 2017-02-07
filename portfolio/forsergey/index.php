@@ -22,7 +22,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="content">
+    <div class="content clearfix">
         <div class="col-lg-6 col-md-6">
             <h1>Мрамор сибири</h1>
             <p>Производим и продаем:</p>
