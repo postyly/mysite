@@ -1,8 +1,8 @@
 body{
     font-family: 'Play', sans-serif;
     color: white;
-    background-image: url("//postyly.tk/portfolio/forsergey/image/fon.jpg");
-    background-size:cover;
+    background-image: url("//postyly.tk/portfolio/forsergey/image/fon-pineapple.jpg");
+    background-position: center;
     text-shadow: 1px 1px 2px black;
 }
 .content{
@@ -28,4 +28,38 @@ li{
 }
 form{
     margin-top: 30px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* my style */
+@media only screen and (max-width : 1024px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 844px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    body{
+        background-size: cover;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  body{
+      background-size: cover;
+  }
 }
