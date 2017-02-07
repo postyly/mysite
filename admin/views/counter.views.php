@@ -1,11 +1,11 @@
 <?php
 //достаем из базы все данные из таблицы u_hit
 $link = db_connect();
-$query = "SELECT ip, UNIX_TIMESTAMP(`date_time`) FROM ip_stat";
+$query = "SELECT ip, UNIX_TIMESTAMP(`date_time`) FROM ip_stat ORDER BY `date` DESC";
 $result = mysqli_query($link, $query) or die('Ошибка запроса к базе данных');
 
 //достаем из базы данных статистику просмотров и уникальных посещений
-$query = "SELECT `date`, `host`, `hit` FROM hits";
+$query = "SELECT `date`, `host`, `hit` FROM hits ORDER BY `date` DESC";
 $result_hits = mysqli_query($link, $query) or die('Ошибка запроса к базе данных');
 ?>
 <h1>Статистика посещений</h1>
