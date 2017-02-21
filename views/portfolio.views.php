@@ -3,5 +3,6 @@
     <ul>
         <li class="lead"><a href="../portfolio/f_proekt" target="_blank">Верстка PSD шаблона</a></li>
         <li class="lead"><a href="../portfolio/forsergey" target="_blank">Для сергея</a></li>
+        <li class="lead"><a href="../portfolio/metal_calculator" target="_blank">Калькулятор металлопрокат</a></li>
     </ul>
 </div>
