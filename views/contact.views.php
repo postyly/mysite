@@ -1,5 +1,5 @@
 <div class="inner cover clearfix">
-    <img class="center-block" style="width: 30%" src="../image/my_photo.jpg">
+    <img class="center-block" style="width: 30%" src="../image/my_photo.jpg" alt="Azarkevich Ivan">
     <h1 class="cover-heading">Контактная информация.</h1>
     <div class="pull-left">
         <p class="lead">Местонахождение: город Минск</p>
