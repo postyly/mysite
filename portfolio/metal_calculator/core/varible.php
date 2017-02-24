@@ -1,15 +1,15 @@
 <?php
 //menu
 $assortment = array(
-    'Square' => array('Square', 'Квадрат'),
-    'Circle' => array('Circle', 'Круг/пруток'),
-    'Ribbon' => array('Ribbon', 'Лента'),
-    'List' => array('List', 'Лист/плита'),
-    'Branch' => array('Branch', 'Отвод'),
     'PipeCircle' => array('PipeCircle', 'Труба круглая'),
+    'List' => array('List', 'Лист/плита'),
+    'Circle' => array('Circle', 'Круг/пруток'),
+    'Square' => array('Square', 'Квадрат'),
+    'Ribbon' => array('Ribbon', 'Лента'),
+   // 'Branch' => array('Branch', 'Отвод'),
     'PipeProf' => array('PipeProf', 'Труба профильная'),
     'Corner' => array('Corner', 'Уголок'),
-    'Flange' => array('Flange', 'Фланец плоский'),
+  //  'Flange' => array('Flange', 'Фланец плоский'),
     'ChannelP' => array('ChannelP', 'Швеллер'),
     'Hexahedron' => array('Hexahedron', 'Шестигранник')
 );
