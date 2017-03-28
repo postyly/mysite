@@ -1,7 +1,7 @@
 <?php
 $alert = '';
 //пункты меню
-$menu = array('main' => 'главная', 'portfolio' => 'портфолио', 'blog' => 'блог', 'contact' => 'контакты');
+$menu = array('main' => 'главная', 'portfolio' => 'портфолио', 'certificate' => 'сертификаты', 'contact' => 'контакты');
 
 //текущая страница
 if (isset($_GET['page'])) {
@@ -19,9 +19,9 @@ switch ($page) {
         $include = "views/portfolio.views.php";
         $title = "portfolio";
         break;
-    case "blog":
-        $include = "views/blog.views.php";
-        $title = "blog";
+    case "certificate":
+        $include = "views/certificate.views.php";
+        $title = "certificate";
         break;
     case "contact":
         $include = "views/contact.views.php";
