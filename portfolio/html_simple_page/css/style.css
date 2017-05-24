@@ -1,0 +1,83 @@
+section{
+    margin-top: 40px;
+}
+.contacts{
+    float: right;
+    margin-top: 30px;
+}
+header td{
+    text-align: right;
+    font-size: 24px;
+}
+header tr{
+    font-weight: 700;
+}
+header tr:nth-child(2){
+   font-weight: 400;
+}
+.toUp{
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+table p{text-indent: 0px}
+
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.main-table{
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+section table.main-table tr td{
+    width: 33%;
+    padding-left: 20px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+section th p{
+    text-align: center;
+}
+section table.main-table tr td:nth-child(2) p{
+    text-align: center;
+    margin-bottom: 0;
+}
+section table.main-table tr td:nth-child(3) p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer{
+    margin: 40px 0;
+}
+footer p{
+    text-align: center;
+}
+footer hr{
+    border-top: 3px solid black;
+    margin: 40px 0;
+}

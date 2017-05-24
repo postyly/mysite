@@ -9,5 +9,6 @@
                         проекте.</a></li>
             </ul>
         </li>
+		<li class="lead"><a href="../portfolio/html_simple_page" target="_blank">Простая верстка</a></li>
     </ul>
 </div>
